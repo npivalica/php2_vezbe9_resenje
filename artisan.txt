@@ -1,0 +1,5 @@
+Napraviti lokalnu bazu i u .env upisati naziv baze u DB_DATABASE=
+
+Za pokretanje migracije i upisivanje podataka u bazu koji su definisani u folderu database/seeders otkucati sledeću komandu:
+
+php artisan migrate:fresh --seed
